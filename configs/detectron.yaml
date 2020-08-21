@@ -1,0 +1,8 @@
+DETECTRON:
+    MODEL_NAME: "faster_rcnn"
+    WEIGHTS: "models/model_fasterRCNN_Khang_10k_46_v3.pth"
+    CFG: "detectron2/configs/COCO-Detection/faster_rcnn_R_101_FPN_3x.yaml"
+    CLASS_NAMES: "data/traffic.names"
+    THRESHOLD: 0.6
+    NUMBER_CLASS: 5
+    DEVICE: 'cpu'
